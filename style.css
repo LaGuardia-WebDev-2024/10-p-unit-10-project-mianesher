@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
   margin-top: 10%;
   font-family: Georgia, serif;
+  font-size: 18px;
 }
 
 html{
@@ -39,10 +40,33 @@ h2 {
   color: black;
 }
 
+h1 { 
+  font-family: 'Arial', sans-serif;  
+  font-size: 36px; 
+  color: white; 
+}
+
 #start {
   text-align: left;
 }
 
 #end {
   text-align: right;
+}
+
+p {
+  color: white; 
+  font-size: 16px; 
+  width: 50%;
+  margin: 20px auto;
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
+ul li {
+  color: white;
+  font-size: 18px;
 }
